@@ -1,12 +1,16 @@
-import React from 'react'
-import Hero from '../../components/hero'
+import React from "react";
+import Hero from "../../components/hero";
+import Category from "../../components/category";
+import ToysView from "../../components/toysView";
 
 const Home = () => {
   return (
-      <>
-          <Hero/>
-      </>
-  )
-}
+    <>
+      <Hero />
+      <Category />
+      <ToysView />
+    </>
+  );
+};
 
-export default Home
+export default Home;
